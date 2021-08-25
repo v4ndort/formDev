@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,700&display=swap');
 
 * {
     margin: 0;
@@ -5,15 +6,15 @@
 }
 
 #titulo {
-    font-family: sans-serif;
+    font-family: 'Poppins';
     color: #380B61;
     margin-left: 7%;
 } 
 
 #subtitulo {
-    font-family: sans-serif;
+    font-family: 'Poppins';
     color: #380B61;
-    margin-left: 10%;
+    margin-left: 7%;
 } 
 
 #check{
@@ -26,7 +27,7 @@ fieldset {
 
 body{
     background-color: #F0F8FF;
-    font-family: sans-serif;
+    font-family: 'Poppins';
     font-size: 1em;
     color: #59429d;
     margin-left: 36%;
@@ -35,7 +36,7 @@ body{
 }
 
 input, select, textarea, button {
-    font-family: sans-serif;
+    font-family: 'Poppins';
     font-size: 1em;
     color: #59429d;
     border-radius: 5px;
@@ -51,6 +52,10 @@ input, select, textarea, button {
 
 .campo {
     margin-bottom: 1em;
+}
+
+.tec {
+    margin-left: 5px;
 }
 
 .campo label {
